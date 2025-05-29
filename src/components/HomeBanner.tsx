@@ -14,7 +14,7 @@ interface BannerSlide {
 const bannerSlides: BannerSlide[] = [
   {
     id: 1,
-    image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://beeline.kg/binaries/content/gallery/mainsite/apple/iphone/iphone-new/iphone-15/pro/blue/1.jpg',
     title: 'iPhone 15 Pro',
     description: 'Новая эра инноваций. Титановый корпус, A17 Pro чип и революционная камера.',
     linkTo: '/phone/iphone15pro',
@@ -22,7 +22,7 @@ const bannerSlides: BannerSlide[] = [
   },
   {
     id: 2,
-    image: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://asiamall.asiacell.com/media/catalog/product/l/d/ld0006113621_1.jpg',
     title: 'Samsung Galaxy S24 Ultra',
     description: 'Флагман с искусственным интеллектом. Создавайте, редактируйте и делитесь с Galaxy AI.',
     linkTo: '/phone/samsungs24ultra',
@@ -30,7 +30,7 @@ const bannerSlides: BannerSlide[] = [
   },
   {
     id: 3,
-    image: 'https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://i.insider.com/65cfbf246fcb546d2d50f812?width=1200&format=jpeg',
     title: 'Google Pixel 8 Pro',
     description: 'Безграничные возможности AI-фотографии. Лучшая камера на Android теперь с Google Gemini.',
     linkTo: '/phone/pixel8pro',
