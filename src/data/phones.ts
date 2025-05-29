@@ -1,0 +1,935 @@
+import { Phone } from '../types/Phone';
+
+export const PHONES: Phone[] = [
+  {
+    id: 'iphone15pro',
+    name: 'iPhone 15 Pro',
+    brand: 'Apple',
+    releaseYear: 2023,
+    os: 'iOS',
+    price: 89900,
+    oldPrice: 99900,
+    popularity: 100,
+    images: [
+      'https://beeline.kg/binaries/content/gallery/mainsite/apple/iphone/iphone-new/iphone-15/pro/blue/1.jpg',
+      'https://cdn.movertix.com/media/catalog/product/cache/image/1200x/i/p/iphone-15-pro-max-blue-titanium-256gb-camera_3.jpg',
+    ],
+    description: 'iPhone 15 Pro - флагманский смартфон от Apple с новым процессором A17 Pro, титановым корпусом и улучшенной системой камер.',
+    screen: {
+      size: 6.1,
+      type: 'Super Retina XDR OLED',
+      resolution: '2556 × 1179',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Apple A17 Pro',
+      cores: 6,
+      frequency: '3.46 ГГц',
+    },
+    memory: {
+      ram: 8,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 48,
+      front: 12,
+      features: ['Ночной режим', 'ProRAW', 'Dolby Vision HDR', 'Cinematic mode'],
+    },
+    battery: {
+      capacity: 3650,
+      fastCharging: '27W проводная, 15W MagSafe',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 146.7,
+      width: 71.5,
+      thickness: 8.25,
+      weight: 187,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 6E',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Титановый корпус',
+        description: 'Прочный и легкий корпус из титана авиационного класса делает iPhone 15 Pro самым легким Pro-смартфоном Apple.',
+      },
+      {
+        title: 'A17 Pro',
+        description: 'Первый 3-нм процессор в смартфоне обеспечивает невероятную производительность и энергоэффективность.',
+      },
+      {
+        title: 'Профессиональная система камер',
+        description: '48-мегапиксельная основная камера с улучшенным телеобъективом для потрясающих фотографий при любом освещении.',
+      },
+    ],
+  },
+  {
+    id: 'samsungs24ultra',
+    name: 'Samsung Galaxy S24 Ultra',
+    brand: 'Samsung',
+    releaseYear: 2024,
+    os: 'Android',
+    price: 92900,
+    popularity: 95,
+    images: [
+      'https://www.myphone.kg/cache/files/22631.png_w800_h800_resize.png?t=1748237306',
+      'https://app-room.ru/wp-content/uploads/2024/02/untitled-1-4.png',
+      'https://cdn.uno.md/storage/images/Product/564860/info/galaxy-s24-ultra-black-1.webp?v=1707926601',
+    ],
+    description: 'Samsung Galaxy S24 Ultra - флагманский смартфон с функциями искусственного интеллекта Galaxy AI, процессором Snapdragon 8 Gen 3 и улучшенной камерой 200 МП.',
+    screen: {
+      size: 6.8,
+      type: 'Dynamic AMOLED 2X',
+      resolution: '3120 × 1440',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8 Gen 3',
+      cores: 8,
+      frequency: '3.39 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 512,
+      expandable: false,
+    },
+    cameras: {
+      main: 200,
+      front: 12,
+      features: ['Nightography', 'Space Zoom', 'Portrait Mode', '8K Video'],
+    },
+    battery: {
+      capacity: 5000,
+      fastCharging: '45W проводная, 15W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 162.3,
+      width: 79.0,
+      thickness: 8.6,
+      weight: 232,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Galaxy AI',
+        description: 'Встроенный искусственный интеллект для улучшения фотографий, перевода текста в реальном времени и многого другого.',
+      },
+      {
+        title: 'S Pen',
+        description: 'Встроенный стилус S Pen с улучшенным откликом для рисования, заметок и управления смартфоном.',
+      },
+      {
+        title: '200-мегапиксельная камера',
+        description: 'Основная камера с разрешением 200 МП для невероятной детализации и возможностей обрезки без потери качества.',
+      },
+    ],
+  },
+  {
+    id: 'pixel8pro',
+    name: 'Google Pixel 8 Pro',
+    brand: 'Google',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 78900,
+    popularity: 85,
+    images: [
+      'https://login.kg/image/cache/catalog/new/Phones/Google/Pixel%208%20Pro/123-500x400.jpg',
+      'https://google-pixel.ru/uploads/product/pixel-8-pro/images/8pro-color-bay-4.webp',
+    ],
+    description: 'Google Pixel 8 Pro с процессором Google Tensor G3 и расширенными возможностями искусственного интеллекта для фотографии и повседневных задач.',
+    screen: {
+      size: 6.7,
+      type: 'LTPO OLED',
+      resolution: '2992 × 1344',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Google Tensor G3',
+      cores: 9,
+      frequency: '3.0 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 10.5,
+      features: ['Night Sight', 'Magic Eraser', 'Photo Unblur', 'Real Tone'],
+    },
+    battery: {
+      capacity: 5050,
+      fastCharging: '30W проводная, 23W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 162.6,
+      width: 76.5,
+      thickness: 8.8,
+      weight: 213,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Google Tensor G3',
+        description: 'Собственный чип Google с улучшенными возможностями машинного обучения для расширенных функций ИИ.',
+      },
+      {
+        title: 'Вычислительная фотография',
+        description: 'Передовые алгоритмы обработки изображений для получения потрясающих фотографий в любых условиях освещения.',
+      },
+      {
+        title: '7 лет обновлений',
+        description: 'Google обещает 7 лет обновлений безопасности и новых версий Android для Pixel 8 Pro.',
+      },
+    ],
+  },
+  {
+    id: 'xiaomi14pro',
+    name: 'Xiaomi 14 Pro',
+    brand: 'Xiaomi',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 68900,
+    popularity: 80,
+    images: [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb0W_lHxmVkkGJFsQmZKbFdevH-ij9Fc8wwQ&s',
+      'https://3dnews.ru/assets/external/illustrations/2024/02/22/1100671/gsmarena_004.jpg',
+    ],
+    description: 'Xiaomi 14 Pro - флагманский смартфон с камерой Leica, чипом Snapdragon 8 Gen 3 и быстрой зарядкой 120W HyperCharge.',
+    screen: {
+      size: 6.73,
+      type: 'LTPO AMOLED',
+      resolution: '3200 × 1440',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8 Gen 3',
+      cores: 8,
+      frequency: '3.3 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 512,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['Leica Optics', 'ProFocus', 'Light Fusion', '8K Video'],
+    },
+    battery: {
+      capacity: 4880,
+      fastCharging: '120W проводная, 50W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 161.4,
+      width: 75.3,
+      thickness: 8.5,
+      weight: 209,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Leica Imaging',
+        description: 'Система камер, разработанная совместно с Leica, для выдающегося качества фотографий.',
+      },
+      {
+        title: '120W HyperCharge',
+        description: 'Сверхбыстрая зарядка, которая полностью заряжает смартфон за 19 минут.',
+      },
+      {
+        title: 'Титановая рамка',
+        description: 'Прочная рамка из титанового сплава для повышенной долговечности и премиального ощущения.',
+      },
+    ],
+  },
+  {
+    id: 'iphone15',
+    name: 'iPhone 15',
+    brand: 'Apple',
+    releaseYear: 2023,
+    os: 'iOS',
+    price: 64900,
+    oldPrice: 69900,
+    popularity: 90,
+    images: [
+      'https://asiastore.kg/image/cache/catalog/iphone/iphone15/1515%2B/iphone15/black/iphone151-1200x1200.jpg',
+      'https://technolider24.ru/upload/iblock/b4b/19l90r37kt4eksvw50xbt4ipe9vo9ihb.jpg',
+    ],
+    description: 'iPhone 15 с улучшенной двойной камерой, процессором A16 Bionic и новым портом USB-C для универсальной зарядки.',
+    screen: {
+      size: 6.1,
+      type: 'Super Retina XDR OLED',
+      resolution: '2556 × 1179',
+      refreshRate: 60,
+    },
+    processor: {
+      name: 'Apple A16 Bionic',
+      cores: 6,
+      frequency: '3.46 ГГц',
+    },
+    memory: {
+      ram: 6,
+      storage: 128,
+      expandable: false,
+    },
+    cameras: {
+      main: 48,
+      front: 12,
+      features: ['Photonic Engine', 'Smart HDR 5', 'Portrait Mode', 'Cinematic Mode'],
+    },
+    battery: {
+      capacity: 3349,
+      fastCharging: '20W проводная, 15W MagSafe',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 147.6,
+      width: 71.6,
+      thickness: 7.8,
+      weight: 171,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 6',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Dynamic Island',
+        description: 'Интерактивный дисплей вокруг выреза камеры, который показывает оповещения и текущие действия.',
+      },
+      {
+        title: '48 МП камера',
+        description: 'Основная камера с высоким разрешением, которая позволяет делать великолепные снимки даже при слабом освещении.',
+      },
+      {
+        title: 'USB-C',
+        description: 'Новый порт USB-C для быстрой передачи данных и зарядки, совместимый с множеством устройств.',
+      },
+    ],
+  },
+  {
+    id: 'samsungs24plus',
+    name: 'Samsung Galaxy S24+',
+    brand: 'Samsung',
+    releaseYear: 2024,
+    os: 'Android',
+    price: 72900,
+    popularity: 85,
+    images: [
+      'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://images.pexels.com/photos/193004/pexels-photo-193004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ],
+    description: 'Samsung Galaxy S24+ сочетает в себе мощный процессор, улучшенную камеру и большой яркий дисплей с функциями Galaxy AI.',
+    screen: {
+      size: 6.7,
+      type: 'Dynamic AMOLED 2X',
+      resolution: '3120 × 1440',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8 Gen 3',
+      cores: 8,
+      frequency: '3.3 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 12,
+      features: ['Nightography', 'Portrait Mode', 'ProVisual Engine', '8K Video'],
+    },
+    battery: {
+      capacity: 4900,
+      fastCharging: '45W проводная, 15W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 158.5,
+      width: 75.9,
+      thickness: 7.7,
+      weight: 196,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 6E',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Galaxy AI',
+        description: 'Набор функций искусственного интеллекта для перевода, обработки фото и повышения производительности.',
+      },
+      {
+        title: 'Armor Aluminum',
+        description: 'Прочная алюминиевая рамка для защиты смартфона от повреждений при падениях.',
+      },
+      {
+        title: 'Vision Booster',
+        description: 'Адаптивная технология отображения, которая улучшает видимость при ярком солнечном свете.',
+      },
+    ],
+  },
+  {
+    id: 'pixel8',
+    name: 'Google Pixel 8',
+    brand: 'Google',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 56900,
+    popularity: 75,
+    images: [
+      'https://mobilmir71.ru/image/cache/catalog/pix8gy-1000x1000.png',
+      'https://lh3.googleusercontent.com/_bxc7N1a_FBKCNPjhJxQWXiVs6T9e4Wrz6EQwLOKbXEKl34_skW4OyTUUrMXH8l89g3h_pRGn8MfMHjT_vXX9Y1faXZljZTjHqQ=s0',
+    ],
+    description: 'Google Pixel 8 предлагает чистый Android с множеством эксклюзивных функций и одну из лучших камер в компактном корпусе.',
+    screen: {
+      size: 6.2,
+      type: 'OLED',
+      resolution: '2400 × 1080',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Google Tensor G3',
+      cores: 9,
+      frequency: '3.0 ГГц',
+    },
+    memory: {
+      ram: 8,
+      storage: 128,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 10.5,
+      features: ['Night Sight', 'Magic Eraser', 'Photo Unblur', 'Top Shot'],
+    },
+    battery: {
+      capacity: 4575,
+      fastCharging: '27W проводная, 18W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 150.5,
+      width: 70.8,
+      thickness: 8.9,
+      weight: 187,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Чистый Android',
+        description: 'Операционная система без дополнительных оболочек и с эксклюзивными функциями Pixel.',
+      },
+      {
+        title: 'Вычислительная фотография',
+        description: 'Алгоритмы искусственного интеллекта для улучшения качества фотографий в любых условиях.',
+      },
+      {
+        title: 'Актуальные обновления',
+        description: 'Гарантированные обновления операционной системы и безопасности в течение 7 лет.',
+      },
+    ],
+  },
+  {
+    id: 'xiaomi14',
+    name: 'Xiaomi 14',
+    brand: 'Xiaomi',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 54900,
+    popularity: 70,
+    images: [
+      'https://ulgamdagal.com/wp-content/uploads/2024/05/xiaomi-14.webp',
+      'https://plus.maximum.md/RichContentViewer/Models/193921/New%20Folder/Jade_green.png',
+    ],
+    description: 'Xiaomi 14 сочетает в себе компактный размер, мощный процессор Snapdragon 8 Gen 3 и камеру, разработанную совместно с Leica.',
+    screen: {
+      size: 6.36,
+      type: 'AMOLED',
+      resolution: '2670 × 1200',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8 Gen 3',
+      cores: 8,
+      frequency: '3.3 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['Leica Optics', 'Light Fusion', 'Portrait Mode', '8K Video'],
+    },
+    battery: {
+      capacity: 4610,
+      fastCharging: '90W проводная, 50W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 152.8,
+      width: 71.5,
+      thickness: 8.2,
+      weight: 193,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Leica Camera',
+        description: 'Камера, разработанная совместно с Leica, для профессиональных фотографий на смартфон.',
+      },
+      {
+        title: 'HyperOS',
+        description: 'Новая операционная система Xiaomi, оптимизированная для скорости и энергоэффективности.',
+      },
+      {
+        title: 'Compact Design',
+        description: 'Компактный флагманский смартфон с экраном 6.36" и тонкими рамками.',
+      },
+    ],
+  },
+  {
+    id: 'oneplus12',
+    name: 'OnePlus 12',
+    brand: 'OnePlus',
+    releaseYear: 2024,
+    os: 'Android',
+    price: 65900,
+    popularity: 65,
+    images: [
+      'https://login.kg/image/cache/catalog/new/Phones/Oneplus/OnePlus%2012/1-500x400.jpg',
+      'https://fishka.kg/image/cache/catalog/img/i/fp/el/c646ef1dfa5d743525ccbaafd0228d88-600x600.jpg',
+      'https://fishka.kg/image/cache/catalog/img/i/fp/el/389f8c5082837ca3a387abbabd8b8f2e-500x500.jpg',
+    ],
+    description: 'OnePlus 12 - флагманский смартфон с быстрой зарядкой 100W, камерой Hasselblad и мощной производительностью.',
+    screen: {
+      size: 6.82,
+      type: 'LTPO AMOLED',
+      resolution: '3168 × 1440',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8 Gen 3',
+      cores: 8,
+      frequency: '3.3 ГГц',
+    },
+    memory: {
+      ram: 16,
+      storage: 512,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['Hasselblad Camera', 'Master Styles', 'ProXDR', '8K Video'],
+    },
+    battery: {
+      capacity: 5400,
+      fastCharging: '100W проводная, 50W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 164.3,
+      width: 75.8,
+      thickness: 9.15,
+      weight: 220,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Hasselblad Camera',
+        description: 'Система камер, разработанная совместно с Hasselblad, для естественных цветов и профессиональных фотографий.',
+      },
+      {
+        title: 'Trinity Engine',
+        description: 'Комплексная система оптимизации для стабильной производительности даже при интенсивном использовании.',
+      },
+      {
+        title: 'Rain Touch',
+        description: 'Технология, позволяющая использовать экран даже мокрыми пальцами или во время дождя.',
+      },
+    ],
+  },
+  {
+    id: 'realme12pro',
+    name: 'Realme 12 Pro+',
+    brand: 'Realme',
+    releaseYear: 2024,
+    os: 'Android',
+    price: 34900,
+    popularity: 60,
+    images: [
+      'https://login.kg/image/cache/catalog/new/Phones/realme/12%20Pro%20Plus/3-1200x800.jpg',
+      'https://ogo1.ru/upload/iblock/a49/77bu84zjpy8nmq8wbixdvzhs1pfrw7ke.jpeg',
+      'https://ixbt.online/live/images/original/33/30/77/2024/01/29/b4c962f55d.jpg',
+    ],
+    description: 'Realme 12 Pro+ предлагает перископический телеобъектив, красивый дизайн и хорошее соотношение цены и качества.',
+    screen: {
+      size: 6.7,
+      type: 'AMOLED',
+      resolution: '2412 × 1080',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 7s Gen 2',
+      cores: 8,
+      frequency: '2.4 ГГц',
+    },
+    memory: {
+      ram: 8,
+      storage: 256,
+      expandable: true,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['3X Periscope', 'Sony IMX890', 'Street Mode', '4K Video'],
+    },
+    battery: {
+      capacity: 5000,
+      fastCharging: '67W проводная',
+      wirelessCharging: false,
+    },
+    dimensions: {
+      height: 161.5,
+      width: 74,
+      thickness: 8.8,
+      weight: 195,
+    },
+    connectivity: {
+      bluetooth: '5.2',
+      wifi: 'Wi-Fi 6',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Перископический зум',
+        description: '3-кратный оптический зум с перископической конструкцией для качественных фотографий удаленных объектов.',
+      },
+      {
+        title: 'Luxurious Watch Design',
+        description: 'Элегантный дизайн в стиле часов с высококачественными материалами и вниманием к деталям.',
+      },
+      {
+        title: 'HyperSpeed Charging',
+        description: '67W быстрая зарядка, которая заряжает смартфон до 50% всего за 19 минут.',
+      },
+    ],
+  },
+  {
+    id: 'huaweip60pro',
+    name: 'Huawei P60 Pro',
+    brand: 'Huawei',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 62900,
+    popularity: 55,
+    images: [
+      'https://object.pscloud.io/cms/cms/Photo/img_0_77_4348_0_1.jpg',
+      'https://object.pscloud.io/cms/cms/Photo/img_0_77_4348_2_1_LPn3gS.jpg',
+    ],
+    description: 'Huawei P60 Pro с выдающейся системой камер XMAGE, переменной диафрагмой и роскошным дизайном.',
+    screen: {
+      size: 6.67,
+      type: 'OLED',
+      resolution: '2700 × 1220',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8+ Gen 1 4G',
+      cores: 8,
+      frequency: '3.2 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 512,
+      expandable: true,
+    },
+    cameras: {
+      main: 48,
+      front: 13,
+      features: ['XMAGE Imaging', 'Variable Aperture', 'Super Macro', '4K Video'],
+    },
+    battery: {
+      capacity: 4815,
+      fastCharging: '88W проводная, 50W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 161,
+      width: 74.5,
+      thickness: 8.3,
+      weight: 200,
+    },
+    connectivity: {
+      bluetooth: '5.2',
+      wifi: 'Wi-Fi 6',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'XMAGE Imaging',
+        description: 'Собственная система обработки изображений Huawei, которая пришла на смену партнерству с Leica.',
+      },
+      {
+        title: 'Variable Aperture',
+        description: 'Физически изменяемая диафрагма для адаптации к различным условиям освещения.',
+      },
+      {
+        title: 'Kunlun Glass',
+        description: 'Сверхпрочное стекло для защиты экрана от царапин и повреждений при падении.',
+      },
+    ],
+  },
+  {
+    id: 'nothing2',
+    name: 'Nothing Phone (2)',
+    brand: 'Nothing',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 45900,
+    popularity: 50,
+    images: [
+      'https://login.kg/image/cache/catalog/new/Phones/Nothing/Phone%20(2)/2-500x400.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbM01-YZB06m1k8S1pyEsdwv0e-Oxfg0qq_w&s',
+    ],
+    description: 'Nothing Phone (2) с уникальным дизайном Glyph Interface, чистым интерфейсом Nothing OS и премиальными характеристиками.',
+    screen: {
+      size: 6.7,
+      type: 'OLED',
+      resolution: '2412 × 1080',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8+ Gen 1',
+      cores: 8,
+      frequency: '3.2 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['Night Mode', 'Portrait Mode', 'Action Mode', '4K Video'],
+    },
+    battery: {
+      capacity: 4700,
+      fastCharging: '45W проводная, 15W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 162.1,
+      width: 76.4,
+      thickness: 8.6,
+      weight: 201,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 6',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Glyph Interface',
+        description: 'Уникальная система светодиодов на задней панели для уведомлений, индикации зарядки и других функций.',
+      },
+      {
+        title: 'Nothing OS',
+        description: 'Чистая версия Android с минималистичным дизайном и уникальными виджетами.',
+      },
+      {
+        title: 'Sustainable Design',
+        description: 'Корпус из переработанных алюминия и пластика с акцентом на экологичность.',
+      },
+    ],
+  },
+  {
+    id: 'vivox100pro',
+    name: 'Vivo X100 Pro',
+    brand: 'Vivo',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 69900,
+    popularity: 45,
+    images: [
+      'https://login.kg/image/cache/catalog/new/Phones/Vivo/X100%20Pro/1-500x400.jpg',
+      'https://telefon.kg/image/catalog/new/Phones/Vivo/X100%20Pro/18.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2-pm1ZaEiPOZvJxVHUqAJcfojnrRbY1kFOg&s',
+    ],
+    description: 'Vivo X100 Pro с камерой ZEISS, чипом MediaTek Dimensity 9300 и продвинутыми возможностями для мобильной фотографии.',
+    screen: {
+      size: 6.78,
+      type: 'AMOLED',
+      resolution: '2800 × 1260',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'MediaTek Dimensity 9300',
+      cores: 8,
+      frequency: '3.25 ГГц',
+    },
+    memory: {
+      ram: 16,
+      storage: 512,
+      expandable: false,
+    },
+    cameras: {
+      main: 50,
+      front: 32,
+      features: ['ZEISS Optics', 'V2 Chip', 'Cinematic Portrait', '8K Video'],
+    },
+    battery: {
+      capacity: 5400,
+      fastCharging: '100W проводная, 50W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 164.1,
+      width: 75.3,
+      thickness: 9.1,
+      weight: 221,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 7',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'ZEISS Optics',
+        description: 'Камера, разработанная совместно с ZEISS, с фирменными стилями портретов и специальным покрытием линз.',
+      },
+      {
+        title: 'V2 Imaging Chip',
+        description: 'Специализированный чип для обработки изображений, улучшающий качество фотографий и видео.',
+      },
+      {
+        title: 'Dimensity 9300',
+        description: 'Мощный процессор с архитектурой из 8 производительных ядер без энергоэффективных ядер.',
+      },
+    ],
+  },
+  {
+    id: 'pocof5pro',
+    name: 'POCO F5 Pro',
+    brand: 'POCO',
+    releaseYear: 2023,
+    os: 'Android',
+    price: 32900,
+    popularity: 65,
+    images: [
+      'https://www.myphone.kg/files/media/20/20525.webp',
+      'https://www.myphone.kg/cache/files/20526.webp_w800_h800_resize.webp?t=1748268605',
+    ],
+    description: 'POCO F5 Pro - доступный флагман с топовыми характеристиками, включая Snapdragon 8+ Gen 1 и AMOLED-дисплей 120 Гц.',
+    screen: {
+      size: 6.67,
+      type: 'AMOLED',
+      resolution: '3200 × 1440',
+      refreshRate: 120,
+    },
+    processor: {
+      name: 'Snapdragon 8+ Gen 1',
+      cores: 8,
+      frequency: '3.2 ГГц',
+    },
+    memory: {
+      ram: 12,
+      storage: 256,
+      expandable: false,
+    },
+    cameras: {
+      main: 64,
+      front: 16,
+      features: ['Night Mode', 'Ultra-wide', 'Macro', '4K Video'],
+    },
+    battery: {
+      capacity: 5160,
+      fastCharging: '67W проводная, 30W беспроводная',
+      wirelessCharging: true,
+    },
+    dimensions: {
+      height: 162.8,
+      width: 75.4,
+      thickness: 8.6,
+      weight: 204,
+    },
+    connectivity: {
+      bluetooth: '5.3',
+      wifi: 'Wi-Fi 6',
+      nfc: true,
+      usb: 'USB-C',
+    },
+    features: [
+      {
+        title: 'Flagship Killer',
+        description: 'Топовые характеристики флагманского уровня по более доступной цене.',
+      },
+      {
+        title: 'LiquidCool 3.0',
+        description: 'Продвинутая система охлаждения для поддержания высокой производительности даже при длительных нагрузках.',
+      },
+      {
+        title: 'Dolby Vision & Atmos',
+        description: 'Поддержка технологий Dolby Vision для дисплея и Dolby Atmos для звука, обеспечивающих кинематографический опыт.',
+      },
+    ],
+  },
+];
